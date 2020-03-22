@@ -3,7 +3,6 @@ package com.beatrice.gridlayoutexample
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.beatrice.simplecard.SimpleCard
-import kotlinx.android.synthetic.main.activity_main.view.*
 
 class MainActivity : AppCompatActivity() {
 
