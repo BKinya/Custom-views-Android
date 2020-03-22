@@ -1,0 +1,3 @@
+rootProject.name='GridLayoutExample'
+include ':app'
+include ':simplecard'
