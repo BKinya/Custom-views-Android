@@ -12,15 +12,15 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val simpleCard = findViewById<SimpleCard>(R.id.myCard)
-        simpleCard.setLabelText("Hp Laptop")
-        simpleCard.setValueText("Ksh.50000")
+        simpleCard.setLabelText("Today")
+        simpleCard.setValueText("20")
 
         val simpleCard1 = findViewById<SimpleCard>(R.id.myCard1)
-        simpleCard1.setLabelText("Dell")
-        simpleCard1.setValueText("Ksh.70000")
+        simpleCard1.setLabelText("This Week")
+        simpleCard1.setValueText("240")
 
         val simpleCard2 = findViewById<SimpleCard>(R.id.myCard2)
-        simpleCard2.setLabelText("MacBook")
-        simpleCard2.setValueText("KSh.200000")
+        simpleCard2.setLabelText("This Month")
+        simpleCard2.setValueText("600")
     }
 }
