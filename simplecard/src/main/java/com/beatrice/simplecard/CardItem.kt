@@ -6,7 +6,7 @@ import android.view.LayoutInflater
 import androidx.cardview.widget.CardView
 import kotlinx.android.synthetic.main.simple_card.view.*
 
-class SimpleCard @JvmOverloads constructor(
+class CardItem @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
      defStyleAttr: Int = 0
